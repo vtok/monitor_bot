@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from config import IP_MONITORING
+from bot.config import IP_MONITORING
 
 
 def build_user_ip_map() -> dict[int, list[str]]:
