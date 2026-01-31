@@ -1,0 +1,7 @@
+services:
+  tg-bot:
+    build: .
+    container_name: tg-bot
+    env_file:
+      - .env
+    restart: unless-stopped
