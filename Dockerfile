@@ -19,4 +19,4 @@ COPY . /app
 
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD python -c "import os; print('ok')" || exit 1
 
-CMD ["python", "-m", "bot.main.py"]
+CMD ["python", "-m", "bot.main"]
